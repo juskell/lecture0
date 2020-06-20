@@ -24,3 +24,15 @@ th, td {
 th { 
     background-color: lightgray;
 }
+
+@media (min-width: 500px) {
+    h1::before {
+        content: "Welcome to My Web Page!";
+    }
+}
+
+@media (max-width: 499px) {
+    h1::before {
+        content: "Welcome";
+    }
+}
