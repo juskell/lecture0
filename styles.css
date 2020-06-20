@@ -36,3 +36,7 @@ th {
         content: "Welcome";
     }
 }
+
+body {
+    padding: 20px;
+}
